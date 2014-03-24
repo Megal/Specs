@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage	 = 'https://github.com/Scott90/SDCAlertView'
 
 # Source Info
-  s.platform     =  :ios, '7.0'
+  s.platform     =  :ios, '5.0'
   s.source       =  { :git => 'https://github.com/Scott90/SDCAlertView.git', :tag => "v#{s.version}" }
   s.source_files = 'SDCAlertView/SDCAlertView.{h,m}', 'SDCAlertView/SDCAlertView_Private.h', 'SDCAlertView/SDCAlertViewCoordinator.{h,m}', 'SDCAlertView/SDCAlertViewController.{h,m}', 'SDCAlertView/SDCAlertViewContentView.{h,m}', 'SDCAlertView/SDCAlertViewBackgroundView.{h,m}'
 
